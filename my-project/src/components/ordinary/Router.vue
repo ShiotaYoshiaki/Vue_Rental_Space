@@ -1,6 +1,5 @@
 <template>
   <div>
-    <router-view></router-view>
     <router-link to="/" class="link" active-class="link--active" exact>Home</router-link>
     <router-link to="/search" class="link" active-class="link--active" exact>Search</router-link>
     <router-link to="/favorites" class="link" active-class="link--active" exact
@@ -13,6 +12,8 @@
 <style scoped>
 .link {
   margin-right: 20px;
+  color: white;
+  text-decoration: none;
 }
 
 .link--active {

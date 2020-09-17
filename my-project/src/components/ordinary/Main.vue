@@ -1,18 +1,15 @@
 <template>
   <div>
-    <Header />
-    <Router />
+    <Visual />
   </div>
 </template>
 
 <script>
-import Router from "./Router.vue";
-import Header from "./Header.vue";
+import Visual from "./Visual.vue";
 
 export default {
   components: {
-    Header,
-    Router
+    Visual,
   }
 };
 </script>
