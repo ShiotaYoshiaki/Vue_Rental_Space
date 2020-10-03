@@ -2,7 +2,6 @@
   <v-app>
     <v-main>
       <Main />
-      
     </v-main>
   </v-app>
 </template>

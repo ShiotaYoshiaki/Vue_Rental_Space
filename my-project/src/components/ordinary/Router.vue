@@ -10,9 +10,12 @@
 </template>
 
 <style scoped>
+
+
+
 .link {
   margin-right: 20px;
-  color: white;
+  color: #000;
   text-decoration: none;
 }
 
